@@ -16,6 +16,7 @@ Install like any other Homebrew package:
 
 ```
 brew install pass-qr
+brew install xcrecord
 ```
 
 ## Packages
@@ -23,3 +24,4 @@ brew install pass-qr
 This tap has the following package:
 
 - [pass-qr](https://github.com/klaaspieter/pass-qr)
+- [xcrecord](https://github.com/klaaspieter/xcrecord)
