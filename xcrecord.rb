@@ -1,4 +1,5 @@
 class Xcrecord < Formula
+  depends_on "gifsicle" => :run
   desc "Capture gifs from the iOS simulator"
   homepage "https://github.com/klaaspieter/xcrecord"
   url "https://github.com/klaaspieter/xcrecord/archive/v1.0.0.tar.gz"
