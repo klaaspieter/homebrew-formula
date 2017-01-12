@@ -1,8 +1,8 @@
 class Xcrecord < Formula
   desc "Capture gifs from the iOS simulator"
   homepage "https://github.com/klaaspieter/xcrecord"
-  url "https://github.com/klaaspieter/xcrecord/archive/v1.0.1.tar.gz"
-  sha256 "4518368d74f855fd8023e8717d1167e9ca2193f208a413a638e64dcb9d317f3e"
+  url "https://github.com/klaaspieter/xcrecord/archive/v1.0.2.tar.gz"
+  sha256 "ff0162feaeb8efb302938ef947de197909c5a75d9d7e171a6d732ebe83a1fadf"
 
   depends_on "ffmpeg"
   depends_on "gifsicle"
