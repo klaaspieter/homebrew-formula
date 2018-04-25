@@ -1,8 +1,8 @@
 class Chxcode < Formula
   desc "Changes the current Xcode"
   homepage "https://github.com/klaaspieter/chxcode"
-  url "https://github.com/klaaspieter/chxcode/archive/0.0.1.tar.gz"
-  sha256 "69f731db52210e91c5a8289631fe5b4cba21958848ec77c1db96747e58380a55"
+  url "https://github.com/klaaspieter/chxcode/archive/0.0.2.tar.gz"
+  sha256 "886911a5dcb31819dd55170e0e6a979cba51d79a7b9aa215e8eb062cba69fa29"
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
