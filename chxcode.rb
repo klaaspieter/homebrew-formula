@@ -8,13 +8,13 @@ class Chxcode < Formula
     system "make", "install", "PREFIX=#{prefix}"
   end
 
-  def caveats; <<-EOS
+  def caveats; <<-CAVEATS
     Add the following to your ~/.bashrc or ~/.zshrc file:
       source #{opt_share}/chxcode/chxcode
 
     To enable auto-switching of Xcode specified by .xcode-version files,
     add the following to your ~/.bashrc or ~/.zshrc:
       source #{opt_share}/chxcode/auto
-    EOS
+    CAVEATS
   end
 end
