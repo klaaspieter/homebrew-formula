@@ -15,7 +15,6 @@ brew tap klaaspieter/formula
 Install like any other Homebrew package:
 
 ```
-brew install pass-qr
 brew install xcrecord
 ```
 
@@ -23,5 +22,4 @@ brew install xcrecord
 
 This tap has the following package:
 
-- [pass-qr](https://github.com/klaaspieter/pass-qr)
 - [xcrecord](https://github.com/klaaspieter/xcrecord)
