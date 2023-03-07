@@ -16,6 +16,7 @@ Install like any other Homebrew package:
 
 ```
 brew install xcrecord
+brew install passage
 ```
 
 ## Packages
@@ -23,3 +24,4 @@ brew install xcrecord
 This tap has the following package:
 
 - [xcrecord](https://github.com/klaaspieter/xcrecord)
+- [passage](https://github.com/FiloSottile/passage) (until https://github.com/FiloSottile/passage/issues/43 is resolved)
